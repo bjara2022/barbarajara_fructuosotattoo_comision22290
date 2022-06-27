@@ -14,6 +14,7 @@ Fuente
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth
 }
 
 body {
@@ -300,4 +301,29 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+/* Animaciones transiciones */
+.cabecera__menu__lista__derecha:hover, .cabecera__menu__lista__item:hover  {
+    transform: scale(1.5);
+    transition: all 1s;
+
+}
+.principal__h1{
+    animation: TulugarTinta 5s ;
+    
+}
+@keyframes TulugarTinta {
+    20%{
+        transform: rotate(180deg);
+        transition: all 4s;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+        
+        color: greenyellow;
+
+    }
+    
 }
