@@ -301,6 +301,9 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: black;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 /* Animaciones transiciones */
 .cabecera__menu__lista__derecha:hover, .cabecera__menu__lista__item:hover  {
@@ -309,7 +312,7 @@ a:hover {
 
 }
 .principal__h1{
-    animation: TulugarTinta 5s ;
+    animation: TulugarTinta 5s;
     
 }
 @keyframes TulugarTinta {
@@ -326,4 +329,19 @@ a:hover {
 
     }
     
+}
+.parrafo:hover, .p:hover, .encontranos:hover{
+    transform: scale(1.05);
+}
+.titulo1:hover, .titulo2:hover, .titulo3:hover{
+    transform: scale(1.5);
+    color: rgba(128, 125, 125, 0.253);
+}
+.ojo:hover, .polilla:hover, .flor:hover, .japones:hover, .dc:hover, .fenix:hover{
+    animation: Imagenes 3s;
+}
+@keyframes Imagenes{
+    50%{
+        transform: scale(1.5);
+    }
 }
