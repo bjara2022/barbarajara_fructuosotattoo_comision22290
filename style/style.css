@@ -163,7 +163,7 @@ Fuente
   justify-content: center;
   padding-bottom: 2%;
 }
-.mas :hover {
+.mas:hover {
   color: gray;
   transform: scale(1.2);
   transition: all 1s;
