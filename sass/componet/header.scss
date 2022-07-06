@@ -1,0 +1,31 @@
+/*header*/
+#pad{
+    padding: 0%;
+}
+#wp, #ful{
+    color: whitesmoke;
+}
+.cabecera{
+    position: sticky;
+    top: 0;
+}
+#items{
+    color: whitesmoke;
+    font-family: $general-fuente;
+    font-size: 16px;
+}
+#items:hover{
+    color: gray;
+    transform: scale(1.5);
+    transition: all 1s;
+}
+.cabecera__menu__logo{
+    width: 10%;
+    height: 10%;
+    display: inline;
+    float: left;
+}
+#random{
+    background-color: black;
+}
+/*Fin Header*/
