@@ -163,8 +163,7 @@ Fuente
   justify-content: center;
   padding-bottom: 2%;
 }
-
-.mas:hover {
+.mas :hover {
   color: gray;
   transform: scale(1.2);
   transition: all 1s;
@@ -172,7 +171,7 @@ Fuente
 
 /*fin artistas*/
 body {
-  background-color: black;
+  background-color: rgb(8, 8, 8);
 }
 
 .navbar-nav {
