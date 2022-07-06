@@ -127,6 +127,9 @@ Fuente
 
 /*fin nosotros*/
 /*artistas*/
+.borde{
+  border: solid 5px red;
+}
 .ojo {
   margin: 5% 5% 5% 5%;
   height: 20%;
