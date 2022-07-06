@@ -7,31 +7,22 @@ Texto beige
 Fuente
 'Nuosu SIL', serif
 */
-body {
-  background-color: black;
-}
-
-.navbar-nav {
-  margin-left: 50%;
-}
-
-a {
-  text-decoration: none;
-  color: beige;
-}
-
-/*header*/
-#pad {
-  padding: 0%;
-}
-
-#wp, #ful {
-  color: whitesmoke;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap"); /*header*/
 .cabecera {
   position: sticky;
   top: 0;
+}
+.cabecera #pad {
+  padding: 0%;
+}
+.cabecera #random {
+  background-color: black;
+}
+.cabecera .cabecera__menu__logo {
+  width: 10%;
+  height: 10%;
+  display: inline;
+  float: left;
 }
 
 #items {
@@ -39,25 +30,24 @@ a {
   font-family: "Nuosu SIL", serif;
   font-size: 16px;
 }
-
 #items:hover {
   color: gray;
   transform: scale(1.5);
   transition: all 1s;
 }
 
-.cabecera__menu__logo {
-  width: 10%;
-  height: 10%;
-  display: inline;
-  float: left;
-}
-
-#random {
-  background-color: black;
-}
-
 /*Fin Header*/
+/*footer*/
+.insta, #wp, #ful {
+  color: whitesmoke;
+}
+.insta:hover, #wp:hover, #ful:hover {
+  color: gray;
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+/*fin footer*/
 .principal {
   background-color: black;
 }
@@ -76,21 +66,13 @@ a {
   padding: 20px;
 }
 
-/*footer*/
-.insta:hover, #wp:hover, #ful {
-  color: gray;
-  transform: scale(1.2);
-  transition: all 1s;
-}
-
-/*fin footer*/
 /*nosotros*/
 .parrafo {
   margin-left: 30px;
   margin-right: 30px;
   font-size: larger;
   color: beige;
-  font-family: "Nuosu SIL", serif;
+  font-family: general-fuente;
   padding-top: 2%;
   padding-bottom: 2%;
   text-align: center;
@@ -189,5 +171,17 @@ a {
 }
 
 /*fin artistas*/
+body {
+  background-color: black;
+}
+
+.navbar-nav {
+  margin-left: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+}
 
 /*# sourceMappingURL=style.css.map */
